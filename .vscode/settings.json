@@ -1,0 +1,7 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "debug.javascript.autoAttachFilter": "smart",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}

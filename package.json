@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "debug:start": "nodemon --inspect src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "father-build": "^1.19.2",
+    "lerna": "^3.22.1",
+    "nodemon": "^2.0.1",
+    "prettier": "^2.x",
+    "ts-node": "^8.5.4",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.3"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
