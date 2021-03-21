@@ -1,0 +1,21 @@
+{
+  "name": "@synth/core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iShawnWang",
+  "license": "MIT",
+  "dependencies": {
+    "@synth/ast": "^0.0.1",
+    "@types/babel-traverse": "^6.25.5",
+    "@types/babel-types": "^7.0.9",
+    "@types/babylon": "^6.16.5",
+    "babel-generator": "^6.26.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "tapable": "^2.2.0"
+  }
+}
