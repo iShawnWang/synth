@@ -1,0 +1,7 @@
+{
+  "name": "@synth/ast",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "iShawnWang",
+  "license": "MIT"
+}
