@@ -14,4 +14,4 @@ export interface Code extends Omit<Text, 'type'> {
 
 export type Child = Text | TestDocAST
 
-export type AST = TestDocAST | Code
+export type AST = TestDocAST | Code | Text
