@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "nodemon ./src/index.ts",
+    "start:util": "nodemon ./packages/utils/index.ts",
     "debug:start": "nodemon --inspect src/index.ts"
   },
   "devDependencies": {
@@ -14,7 +15,7 @@
     "lerna": "^3.22.1",
     "nodemon": "^2.0.1",
     "prettier": "^2.x",
-    "ts-node": "^8.5.4",
+    "ts-node": "^9.1.1",
     "tslib": "^1.10.0",
     "typescript": "^3.7.3"
   },
